@@ -54,8 +54,12 @@ body{
     display: inline-block;
     background-color: white;
     border-radius: 3px;
-
     vertical-align: top;
+}
+
+.animal img{
+    width: 100%;
+    object-fit: cover;
 }
 
 
