@@ -1,7 +1,7 @@
 body{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
-    background-color: whitesmoke;
+    background-color: rgb(230, 230, 230);
 }
 
 .indice{
@@ -18,6 +18,8 @@ body{
 
 .conclusion{
     font-size: 1em;
+    text-align: justify;
+    padding: 5px;
 }
 
 .datos{
@@ -28,6 +30,7 @@ body{
 .banner{
     width: 100%;
     height: auto;
+    color: aliceblue;
     position: relative;
 }
 
@@ -35,30 +38,32 @@ body{
     width: 90%;
     height: 150pt;
     object-fit: cover;
+    border-radius: 3px;
+    filter:brightness(0.6);
 }
 
 .titulo{
+    left: 5%;
     top: 45%;
     position: absolute;
 }
 
 .contenedores{
     width: 100%;
-    height: 600px;
+    height: 697px;
     margin-top: 10px;
     overflow-y: scroll;
-    /* position: relative; */
 }
 
 .contenedor{
     width: 29.4%;
+    height: auto;
     padding: 5px;
     display: inline-block;
     background-color: white;
     border-radius: 3px;
     vertical-align: top;
     position: relative;
-    /* position: absolute; */
 }
 
 .animal img{
@@ -67,24 +72,26 @@ body{
 }
 
 #contenedor2{
-    background-color:whitesmoke;
-    left: 30%;
+    background-color: rgb(230, 230, 230);
+    left: 29.8%;
 }
 #contenedor3{
     left: 30%;
+    height: 685px;
 }
 
 .introuccion{
     background-color: white;
     width: auto;
-    padding: 5px;
+    padding: 10px;
     margin-top: -5px;
     border-radius: 3px;
+    text-align: justify;
 }
 
 .explicacion article{
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     border-radius: 3px;
     background-color: white;
     text-align: justify;
@@ -93,4 +100,6 @@ body{
 
 #contenedor1{
     position: fixed;
+    width: 28%;
+    height: 685px;
 }
