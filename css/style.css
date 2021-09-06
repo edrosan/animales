@@ -48,7 +48,7 @@ a{
 }
 
 .banner img{
-    width: 90%;
+    width: 95%;
     height: 150pt;
     object-fit: cover;
     border-radius: 3px;
@@ -69,7 +69,7 @@ a{
 }
 
 .contenedor{
-    width: 29.4%;
+    width: 30%;
     height: auto;
     padding: 5px;
     display: inline-block;
@@ -86,7 +86,7 @@ a{
 
 #contenedor2{
     background-color: rgb(230, 230, 230);
-    left: 29.8%;
+    left: 30%;
 }
 #contenedor3{
     left: 30%;
@@ -113,6 +113,6 @@ a{
 
 #contenedor1{
     position: fixed;
-    width: 28%;
+    width: 30%;
     height: 685px;
 }
