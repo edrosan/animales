@@ -8,6 +8,19 @@ body{
     font-size: 1.5rem;
 }
 
+ol{
+    list-style:upper-roman;
+}
+
+ol ol{
+    list-style:lower-roman;
+}
+
+a{
+    text-decoration: inherit;
+    color: #333333;
+}
+
 .introuccion{
     font-size: 1em;
 }
@@ -30,7 +43,7 @@ body{
 .banner{
     width: 100%;
     height: auto;
-    color: aliceblue;
+    color: white;
     position: relative;
 }
 
